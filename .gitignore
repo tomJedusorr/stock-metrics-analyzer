@@ -1,0 +1,31 @@
+# --- Project-specific ignores ---
+tests/
+templates/
+simple_tests.ipynb
+controller.py
+main.py
+
+# --- Python general ignores ---
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyo
+
+# --- Jupyter Notebook checkpoints ---
+.ipynb_checkpoints/
+
+# --- Environment & IDE related ---
+.env
+.venv/
+*.env
+*.DS_Store
+*.vscode/
+*.idea/
+
+# --- Logs, databases ---
+*.log
+*.sqlite3

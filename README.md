@@ -45,6 +45,18 @@ pip install -r requirements.txt
 # Customize the attributes list as needed
 ```
 
+# All the attributes available so far are the following:
+
+```python
+[
+    "arith_avg", "geom_avg", "ema_avg", "stand_var", "sharpe", "sortino", "down_dev",
+    "max_draw", "beta", "treynor", "capm", "alpha", "cvar_95", "cvar_975", "cvar_99",
+    "var_95", "var_975", "var_99", "pos_prob", "min_return", "max_return",
+    "market_cap", "trailing_pe", "forward_pe", "enterpriseValue", "sector", 
+    "div_yield", "float_shares", "price_book", "real_start", "real_end"
+    ]
+```
+
 ### Example Usage
 
 ```python

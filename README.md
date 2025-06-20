@@ -67,6 +67,22 @@ market_cap 2.936T
 
 ```
 
+---
+
+## ⚡ Optional: Run the App with Streamlit
+
+You can also explore the analysis tool through a local Streamlit interface.
+
+### ▶️ Quick Start
+
+```bash
+# Install Streamlit if not already installed
+pip install streamlit
+
+# Run the Streamlit app (assuming you have a launch file)
+streamlit run app/launch_app.py
+```
+
 ## 🤝 Contributions Welcome
 This project is still evolving, and contributions are highly appreciated!
 I'm open to collaboration with:

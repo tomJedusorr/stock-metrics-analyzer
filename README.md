@@ -43,3 +43,40 @@ pip install -r requirements.txt
 
 # Run analysis (example usage in app or script)
 # Customize the attributes list as needed
+```
+
+### Example Usage
+
+```python
+from analysis import mainf
+
+result = mainf(
+    ticker="AAPL",
+    attributes=["sharpe", "geom_avg", "market_cap"],
+    start="2018-01-01",
+    end="2023-01-01",
+    freq="m"
+)
+
+print(result.head())
+
+          AAPL
+sharpe     0.2478
+geom_avg   1.95%
+market_cap 2.936T
+
+```
+
+## 🤝 Contributions Welcome
+This project is still evolving, and contributions are highly appreciated!
+I'm open to collaboration with:
+
+- 🧠 Developers interested in expanding the metric library
+- 🎨 Frontend/UI designers to build a tailored frontend app
+- 🧪 Contributors who want to improve structure and robustness
+
+Feel free to:
+
+Fork the repo
+Submit pull requests
+Open issues or suggestions
